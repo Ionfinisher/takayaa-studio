@@ -117,7 +117,7 @@ const HomePage = () => {
           <div className="flex flex-row justify-evenly w-full flex-wrap gap-3">
             {images.map((image, index) => (
               <div key={index} className="w-28 h-28 md:w-52 md:h-48">
-                <img src={`/assets/trusted-logos/${image}`} alt="Parteners-logo" />
+                <img src={`public/assets/trusted-logos/${image}`} alt="Parteners-logo" />
               </div>
             ))}
           </div>
