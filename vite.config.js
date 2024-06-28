@@ -4,11 +4,10 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/takayaa-studio/",
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:4284803558.
       "~": path.resolve(__dirname, "./"),
     },
   },
