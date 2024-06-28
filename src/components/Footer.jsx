@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import takayaa from "../assets/takayaa-logo.png";
+import takayaa from "../../public/assets/takayaa-logo.png";
 import { Separator } from "~/components/ui/separator"
 
 export default function Footer() {

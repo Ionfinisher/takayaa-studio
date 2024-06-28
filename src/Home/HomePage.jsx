@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CircleArrowOutDownRight, Download, PartyPopper, Instagram } from 'lucide-react';
-import takayaa from "../assets/takayaa-logo.png";
+import takayaa from "../../public/assets/takayaa-logo.png"
 import { InputForm as EmailForm } from '../components/InputForm';
 import Footer  from '../components/Footer.jsx';
 import { Separator } from "~/components/ui/separator"
@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <>
       {/* Hero section */}
-      <div id="home" className="w-full px-4 md:px-8 py-12 text-black bg-cover bg-center bg-[url('src/assets/images/TAKAYAA-BACKGROUND.webp')]">
+      <div id="home" className="w-full px-4 md:px-8 py-12 text-black bg-cover bg-center bg-[url('public/assets/images/TAKAYAA-BACKGROUND.webp')]">
 
         <div className="flex flex-col items-center justify-center w-full">
           <div className="flex flex-col m-3 gap-1 montserrat-md">
@@ -117,7 +117,7 @@ const HomePage = () => {
           <div className="flex flex-row justify-evenly w-full flex-wrap gap-3">
             {images.map((image, index) => (
               <div key={index} className="w-28 h-28 md:w-52 md:h-48">
-                <img src={`src/assets/trusted-logos/${image}`} alt="Parteners-logo" />
+                <img src={`public/assets/trusted-logos/${image}`} alt="Parteners-logo" />
               </div>
             ))}
           </div>
@@ -162,7 +162,7 @@ const HomePage = () => {
       {/* Contact section */}
 
       {/* Our social media section and footer*/}
-      <div id="footer" className="w-full bg-cover bg-center pt-24 pb-10 bg-[url('src/assets/images/TAKAYAA-BACKGROUND.webp')] montserrat-sm">
+      <div id="footer" className="w-full bg-cover bg-center pt-24 pb-10 bg-[url('public/assets/images/TAKAYAA-BACKGROUND.webp')] montserrat-sm">
         <div>
           <div className="container mx-auto px-4 md:px-8">
             {/* our social section */}

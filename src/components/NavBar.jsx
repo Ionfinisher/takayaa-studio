@@ -1,7 +1,7 @@
 import React from "react"
 import { useMatch, useResolvedPath } from "react-router-dom"
 import { HashLink as Link } from 'react-router-hash-link';
-import takayaa from "../assets/takayaa-logo.png"
+import takayaa from "../../public/assets/takayaa-logo.png"
 import { SheetAction } from "./BurgerMenu";
 import { Separator } from "~/components/ui/separator"
 
