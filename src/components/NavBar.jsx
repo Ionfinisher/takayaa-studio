@@ -19,7 +19,7 @@ export default function NavBar() {
                 <CustomLink to={"/#home"} className='hover:underline underline-offset-4'>Home</CustomLink>
                 <CustomLink to={"/#aboutus"} className='hover:underline underline-offset-4'>About us</CustomLink>
                 <CustomLink to={"/#ourexpertise"} className='hover:underline underline-offset-4'>Our expertise</CustomLink>
-                <CustomLink to={"/#freeresources"} className='hover:underline underline-offset-4'>Free resource</CustomLink>
+                {/* <CustomLink to={"/#freeresources"} className='hover:underline underline-offset-4'>Free resource</CustomLink> */}
                 <CustomLink to={"/#contact"} className='hover:underline underline-offset-4'>Contact</CustomLink>
             </div>
         </div>

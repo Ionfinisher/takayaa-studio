@@ -14,10 +14,7 @@ function App() {
       <NavBar/>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/players" element={<PlayersPage />} />
-          <Route path="/games" element={<GamesPage />} />
-          <Route path="/stats" element={<StatsPage />} /> */}
-          <Route path="*" element={<NotFound />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
     </div>
       

@@ -43,9 +43,9 @@ export function SheetAction() {
             <SheetClose asChild>
               <CustomLink to={"/#ourexpertise"} className='hover:text-[#0E3B5F]'>Our expertise</CustomLink>
             </SheetClose>
-            <SheetClose asChild>
+            {/* <SheetClose asChild>
               <CustomLink to={"/#freeresources"} className='hover:text-[#0E3B5F]'>Free resource</CustomLink>
-            </SheetClose>
+            </SheetClose> */}
             <SheetClose asChild>
               <CustomLink to={"/#contact"} className='hover:text-[#0E3B5F]'>Contact</CustomLink>
             </SheetClose>
