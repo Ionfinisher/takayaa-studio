@@ -16,7 +16,7 @@ export default function Footer() {
                 {/* contacts section */}
                 <div>
                   <div className="flex flex-col gap-5 items-center md:items-start">
-                    <p>+228 90 00 00 00</p>
+                    <p>+228 93 29 94 94</p>
                     <p>takayaastudio@gmail.com</p>
                 </div>
             </div>
