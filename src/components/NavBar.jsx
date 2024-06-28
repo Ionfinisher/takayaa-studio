@@ -16,9 +16,9 @@ export default function NavBar() {
                 <SheetAction/>
             </div>
             <div className="lg:flex items-center space-x-6 hidden montserrat-md text-lg">
-                <CustomLink to={"/#home"} className='hover:underline underline-offset-4'>Home</CustomLink>
-                <CustomLink to={"/#aboutus"} className='hover:underline underline-offset-4'>About us</CustomLink>
-                <CustomLink to={"/#ourexpertise"} className='hover:underline underline-offset-4'>Our expertise</CustomLink>
+                <CustomLink to={"/#home"} className='hover:underline underline-offset-4'>Accueil</CustomLink>
+                <CustomLink to={"/#aboutus"} className='hover:underline underline-offset-4'>A propos</CustomLink>
+                <CustomLink to={"/#ourexpertise"} className='hover:underline underline-offset-4'>Notre expertise</CustomLink>
                 {/* <CustomLink to={"/#freeresources"} className='hover:underline underline-offset-4'>Free resource</CustomLink> */}
                 <CustomLink to={"/#contact"} className='hover:underline underline-offset-4'>Contact</CustomLink>
             </div>

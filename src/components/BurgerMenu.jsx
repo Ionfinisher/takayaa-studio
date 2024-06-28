@@ -37,13 +37,13 @@ export function SheetAction() {
         </SheetHeader>
         <div className="flex flex-col gap-8 items-center montserrat-md">
             <SheetClose asChild>
-              <CustomLink to={"/#home"} className='hover:text-[#0E3B5F]'>Home</CustomLink>
+              <CustomLink to={"/#home"} className='hover:text-[#0E3B5F]'>Accueil</CustomLink>
             </SheetClose>
             <SheetClose asChild>
-              <CustomLink to={"/#aboutus"} className='hover:text-[#0E3B5F]'>About us</CustomLink>
+              <CustomLink to={"/#aboutus"} className='hover:text-[#0E3B5F]'>A propos</CustomLink>
             </SheetClose>
             <SheetClose asChild>
-              <CustomLink to={"/#ourexpertise"} className='hover:text-[#0E3B5F]'>Our expertise</CustomLink>
+              <CustomLink to={"/#ourexpertise"} className='hover:text-[#0E3B5F]'>Notre expertise</CustomLink>
             </SheetClose>
             {/* <SheetClose asChild>
               <CustomLink to={"/#freeresources"} className='hover:text-[#0E3B5F]'>Free resource</CustomLink>
@@ -55,7 +55,7 @@ export function SheetAction() {
         </div>
         <SheetFooter>
           <SheetClose asChild>
-            <Button size={"lg"} variant={"outline"} className="text-lg montserrat-md mx-auto">Close</Button>
+            <Button size={"lg"} variant={"outline"} className="text-lg montserrat-md mx-auto">Fermer</Button>
           </SheetClose>
         </SheetFooter>
       </SheetContent>

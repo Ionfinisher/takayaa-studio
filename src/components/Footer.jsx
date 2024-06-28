@@ -25,9 +25,9 @@ export default function Footer() {
                 {/* footer links */}
                 <div>
                   <div className="flex flex-col gap-5 items-center md:items-start">
-                  <Link to={"/#home"} className='hover:underline underline-offset-4'>Home</Link>
-                  <Link to={"/#aboutus"} className='hover:underline underline-offset-4'>About us</Link>
-                  <Link to={"/#ourexpertise"} className='hover:underline underline-offset-4'>Our expertise</Link>
+                  <Link to={"/#home"} className='hover:underline underline-offset-4'>Accueil</Link>
+                  <Link to={"/#aboutus"} className='hover:underline underline-offset-4'>A propos</Link>
+                  <Link to={"/#ourexpertise"} className='hover:underline underline-offset-4'>Notre expertise</Link>
                   {/* <Link to={"/#freeresources"} className='hover:underline underline-offset-4'>Free resource</Link> */}
                   <Link to={"/#contact"} className='hover:underline underline-offset-4'>Contact</Link>
                   </div>

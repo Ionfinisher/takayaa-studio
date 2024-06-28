@@ -18,18 +18,18 @@ const HomePage = () => {
           <div className="flex flex-col m-3 gap-1 montserrat-md">
             <div className="text-2xl md:text-4xl text-center">
               <img src={takayaa}  alt="logo" className="mx-auto w-64 h-24 md:w-full md:h-40"/>
-              <div className='my-2'>A CREATIVE DIGITAL AGENCY</div>
-              <div className='mt-2'>LIKE YOU'VE NEVER SEEN BEFORE</div>
+              <div className='my-2'>L'AGENCE CRÉATIVE DIGITALE</div>
+              <div className='mt-2'>COMME JAMAIS AU PARAVANT</div>
             </div>
             
             <div className="text-sm md:text-lg text-center my-3">
-              <div>Find out more about how we can help you</div>
-              <div>make a difference.</div>
+              <div>Découvrez comment nous pouvons vous aider</div>
+              <div>à faire la difference.</div>
             </div>
           </div> 
           <div className="md:my-2">
             <Link to={"https://forms.gle/QwjYdgynRiwuLf3r5"} target='_blank' className='border border-black hover:bg-black hover:text-white transition-all duration-300 ease-in-out text-2xl montserrat-2xl text-black py-4 px-10 rounded-full flex gap-2 items-center'>
-              {`LET'S TALK`}
+              {`CONTACTEZ NOUS`}
             </Link>
           </div> 
         </div>
@@ -41,16 +41,16 @@ const HomePage = () => {
       <div id='aboutus' className="container mx-auto px-4 md:px-8 py-24">
         <div className="border border-black montserrat-md text-black py-2 px-5 rounded-full w-36 flex gap-2 items-center justify-center mb-16">
           <CircleArrowOutDownRight size={13} strokeWidth={2} />
-          About us
+          A propos
         </div>
         <div className="montserrat-md text-base md:text-xl 
         flex flex-col my-5 gap-5">
           <div className="text-2xl md:text-4xl flex flex-col md:flex-row md:items-end gap-5">
-            Welcome to Takayaa Studio
+            Bienvenue chez Takayaa Studio
             <PartyPopper size={45} strokeWidth={1} className="animate-shake"/>
           </div>
-          <p>Our mission is to propel the online visibility and engagement of women's brands and Civil Society Organizations in Africa. Our vision is to create a digital ecosystem where every voice can be heard and every project can thrive through innovative marketing and design solutions.</p>
-          <p>Our core values are creativity, innovation and social impact. We believe in the power of design and marketing to transform ideas into tangible realities and initiatives into sustainable successes. With a passionate and dedicated team, Takayaa Studio is committed to providing tailor-made services that reflect the uniqueness of each client while responding to the specific challenges of our time.</p>
+          <p>Nous avons pour mission de propulser la visibilité et l'engagement en ligne des marques féminines et des Organisations de la Société Civile en Afrique. Notre vision est de créer un écosystème digital où chaque voix peut se faire entendre et chaque projet peut prospérer grâce à des solutions de marketing et de design innovantes.</p>
+          <p>Nos valeurs fondamentales reposent sur la créativité, l'innovation, et l'impact social. Nous croyons au pouvoir du design et du marketing pour transformer des idées en réalités tangibles et des initiatives en succès durables. Avec une équipe passionnée et dévouée, Takayaa Studio s'engage à fournir des services sur mesure qui reflètent l'unicité de chaque client tout en répondant aux défis spécifiques de notre époque.</p>
         </div>
       </div>
       {/* About us section */}
@@ -60,28 +60,28 @@ const HomePage = () => {
       {/* Expertise section */}
       <div id="ourexpertise" className='w-full py-24 bg-[#484647bb]'>
         <div className="container mx-auto px-4 md:px-8">
-          <div className="border border-white montserrat-md text-white py-2 px-5 rounded-full max-w-44 flex gap-2 items-center justify-center mb-16">
+          <div className="border border-white montserrat-md text-white py-2 px-5 rounded-full max-w-48 flex gap-2 items-center justify-center mb-16">
             <CircleArrowOutDownRight size={13} strokeWidth={2} />
-            Our expertise
+            Notre expertise
           </div>
 
           <div className="flex my-5 text-white">
             <div className="basis-1/2 flex flex-col justify-start md:justify-center items-start gap-8 md:gap-12">
               <div className="flex justify-center items-center gap-4">
                 <p className="montserrat-md text-xs md:text-base text-gray-200">01.</p>
-                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Graphic Design</p>
+                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Design Graphique</p>
               </div>
               <div className="flex justify-center items-center gap-4">
                 <p className="montserrat-md text-xs md:text-base text-gray-200">02.</p>
-                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Web Design</p>
+                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Conception de site Web</p>
               </div>
               <div className="flex justify-center items-center gap-4">
                 <p className="montserrat-md text-xs md:text-base text-gray-200">03.</p>
-                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Audit & Digital Strategy</p>
+                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Audit & Stratégie</p>
               </div>
               <div className="flex justify-center items-center gap-4">
                 <p className="montserrat-md text-xs md:text-base text-gray-200">04.</p>
-                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Training</p>
+                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Formation</p>
               </div>
               
             </div>
@@ -89,15 +89,15 @@ const HomePage = () => {
             <div className="basis-1/2 flex flex-col justify-start md:justify-center items-start gap-8 md:gap-12">
               <div className="flex justify-center items-center gap-4">
                 <p className="montserrat-md text-xs md:text-base text-gray-200">05.</p>
-                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Content Marketing</p>
+                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Marketing de Contenus</p>
               </div>
               <div className="flex justify-center items-center gap-4">
                 <p className="montserrat-md text-xs md:text-base text-gray-200">06.</p>
-                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Content Creation</p>
+                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Création de Contenus</p>
               </div>
               <div className="flex justify-center items-center gap-4">
                 <p className="montserrat-md text-xs md:text-base text-gray-200">07.</p>
-                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Graphic Models Sale</p>
+                <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Vente de Modèles Graphiques</p>
               </div>
             </div>
           </div>
@@ -110,9 +110,9 @@ const HomePage = () => {
       {/* They trust us section */}
       <div className="container mx-auto px-4 md:px-8 py-24">
         <div className="flex flex-col items-center justify-center gap-8">
-        <div className="border border-black montserrat-md text-black py-2 px-5 rounded-full max-w-48 flex gap-2 items-center justify-center mb-16">
+        <div className="border border-black montserrat-md text-black py-2 px-5 rounded-full max-w-54 flex gap-2 items-center justify-center mb-16">
           <CircleArrowOutDownRight size={13} strokeWidth={2} />
-            They trusted us
+            Ils nous ont fait confiance
           </div>
           <div className="flex flex-row justify-evenly w-full flex-wrap gap-3">
             {images.map((image, index) => (
@@ -151,10 +151,10 @@ const HomePage = () => {
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col gap-12 items-center justify-evenly md:justify-center">
             <h1 className="text-white montserrat-md text-3xl lg:text-4xl text-center">
-              Find out how we can turn your ideas into tangible, sustainable realities. Contact us today!
+              Découvrez comment nous pouvons transformer vos idées en réalités tangibles et durables. Contactez-nous dès aujourd'hui !
             </h1>
-            <Link to={"https://forms.gle/QwjYdgynRiwuLf3r5"} target='_blank' className='border border-white hover:bg-white hover:text-white transition-all duration-300 ease-in-out text-2xl montserrat-2xl text-white py-4 px-10 rounded-full flex gap-2 items-center'>
-                {`LET'S TALK`}
+            <Link to={"https://forms.gle/QwjYdgynRiwuLf3r5"} target='_blank' className='border border-white hover:bg-white hover:text-black transition-all duration-300 ease-in-out text-2xl montserrat-2xl text-white py-4 px-10 rounded-full flex gap-2 items-center'>
+                {`CONTACTEZ NOUS`}
             </Link>
           </div>
         </div>
