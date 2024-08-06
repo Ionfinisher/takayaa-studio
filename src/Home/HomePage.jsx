@@ -67,7 +67,7 @@ const HomePage = () => {
 
           <div className="flex my-5 text-white">
             <div className="basis-1/2 flex flex-col justify-start md:justify-center items-start gap-8 md:gap-12">
-              <div className="flex justify-center items-center gap-4">
+              <div className="flex justify-center items-center gap-4 group">
                 <p className="montserrat-md text-xs md:text-base text-gray-200">01.</p>
                 <p className='montserrat-md text-xl md:text-3xl lg:text-4xl'>Design Graphique</p>
               </div>
